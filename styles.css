@@ -1,0 +1,114 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 2
+    
+    
+    px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.brand {
+    font-size: 3.5rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+
+}
+.centered-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.centered-text h1 {
+    font-size: 3rem;
+    /* You can add more styles as needed */
+}
+.login button {
+    background-color:#333 ;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.login button i {
+    margin-right: 1450px;
+}
+.navbar {
+    background-color: #333; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.navbar:hover {
+    background-color:#fff; /* New background color on hover */
+}
+
+.nav-links li a {
+    color:#333 ; /* Default link color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-links li a:hover {
+    color: #fff ; /* New link color on hover */
+}
+.login button i {
+    background-color: #333; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+.login button i :hover {
+    background-color:#fff; /* New background color on hover */
+}
+
